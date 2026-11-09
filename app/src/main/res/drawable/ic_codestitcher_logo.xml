@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="360"
+    android:viewportHeight="360">
+
+    <!-- Solid Black Squircle Badge -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M84,0 L276,0 A84,84 0 0,1 360,84 L360,276 A84,84 0 0,1 276,360 L84,360 A84,84 0 0,1 0,276 L0,84 A84,84 0 0,1 84,0 Z" />
+
+    <!-- Official Dual-Capsule Stitch Mark (Rotated 45 degrees) -->
+    <group
+        android:pivotX="180"
+        android:pivotY="180"
+        android:rotation="45">
+
+        <!-- Capsule 1 (Left) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M141,85 A33,33 0 0,1 174,118 L174,202 A33,33 0 0,1 108,202 L108,118 A33,33 0 0,1 141,85 Z" />
+
+        <!-- Capsule 2 (Right) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M219,125 A33,33 0 0,1 252,158 L252,242 A33,33 0 0,1 186,242 L186,158 A33,33 0 0,1 219,125 Z" />
+
+        <!-- Center Cross-Stitch Cut Line -->
+        <path
+            android:pathData="M158,180 L202,180"
+            android:strokeColor="#000000"
+            android:strokeWidth="8"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
